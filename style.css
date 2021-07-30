@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.nav-links{
+    list-style: none;
+    padding: 8px;
+    border-right: 1px solid oldlace;
+    color: white;
+}
+.nav-top, .ul{
+    background-color: blueviolet;
+    display: flex;
+}
+.search-box, .submit-box{
+    background-color: lightgray;
+    padding: 4px;
+    border-radius: 6px;
+    margin-left: 5px;
+}
+.icon{
+    padding-left: 10px;
+}
+.nave-article{
+    display: flex;
+    align-items: center;
+    padding: 18px;
+}
+.logo{
+    margin-right: 300px;
+}
+.nav-link{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    border-right: 1px solid white;
+}
+.nav-link a{
+    text-decoration: none;
+    color: white;  
+}
+.nav-list{
+    display: flex;
+}
+.main-nav{
+    background-color: grey;
+}
+.main-container ul{
+    list-style: none;
+    margin: 0 35px 0 0;
+}
+.main-container ul li{
+    padding:10px 0;
+    border-bottom: 1px solid green;
+}
+.box-img img{
+    width: 220px;
+    margin: 10px 0;
+}
+.main-container{
+    display: flex;
+}
+.box-2 img{
+    width: 300px;
+    margin: 10px 0;
+    display: block;
+}
+footer img {
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+  .footer-menu p {
+    margin: 10px 0;
+  }
+  .footer-menu .box-1 {
+    margin: 0 auto 0 0;
+}
+.footer-menu {
+    display: flex;
+    background: gray;
+    border-bottom: 3px solid red;
+    color: white;
+    padding: 10px;
+  }
